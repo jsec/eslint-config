@@ -25,7 +25,6 @@ module.exports = {
         "@typescript-eslint/semi": "off",
         "@typescript-eslint/object-curly-spacing": "off",
         "no-unused-vars": "off",
-        "no-warning-comments": "off",
-        "no-promise-executor-return": "off"
+        "no-warning-comments": "off"
     }
 }
