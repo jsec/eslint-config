@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/jsec/eslint-config.git"
   },
+  "publishConfig": {
+      "access": "public"
+  },
   "keywords": [
     "eslint",
     "lint",
