@@ -3,6 +3,7 @@ module.exports = {
     plugins: [
         '@typescript-eslint/eslint-plugin',
         'import',
+        'simple-import-sort',
         'prettier'
     ],
     extends: [
@@ -25,6 +26,11 @@ module.exports = {
         "@typescript-eslint/semi": "off",
         "@typescript-eslint/object-curly-spacing": "off",
         "no-unused-vars": "off",
-        "no-warning-comments": "off"
+        "no-warning-comments": "off",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
+        "import/first": "error",
+        "import/newline-after-import": "error",
+        "import/no-duplicates": "error"
     }
 }
