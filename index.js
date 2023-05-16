@@ -11,9 +11,9 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript',
-        'plugin:prettier/recommended',
         'xo',
-        'xo-typescript'
+        'xo-typescript',
+        'plugin:prettier/recommended'
     ],
     rules: {
         "comma-dangle": "off",
